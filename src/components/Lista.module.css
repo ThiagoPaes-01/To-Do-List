@@ -1,0 +1,91 @@
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+.card h1 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.stats {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.inputGroup input:focus {
+  border-color: #007bff;
+}
+
+.addButton {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
+
+.listaTarefas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itemTarefa {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  gap: 10px;
+}
+
+.textoTarefa {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.deleteButton {
+  background-color: transparent;
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.deleteButton:hover {
+  background-color: #ff4d4d;
+  color: white;
+}
