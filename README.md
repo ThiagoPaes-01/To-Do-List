@@ -20,6 +20,7 @@ src/
     └── Lista.jsx
     
 ▶️ Como rodar
+
 bash# Instale as dependências
 npm install
 
